@@ -7,3 +7,65 @@ body {
 	font: normal normal 13px/16px "Roboto", sans-serif;
 	background: #e7dada;
 }
+.container {
+	width: 40%;
+	margin: 40px auto 20px;
+	padding: 20px 10px 10px 20px;
+	background-color: rgb(233, 237, 240);
+	border-radius: 10px;
+}
+form {
+	display: inline-block;
+	width: 80%;
+}
+input {
+	padding: 0;
+	width: 100%;
+	height: 40px;
+}
+input:focus {
+	background-color: #e8edee;
+}
+#button {
+	display: inline-block;
+	background-color: rgb(10, 228, 101);
+	color: rgb(0, 0, 0);
+	border-radius: 5px;
+	text-align: center;
+	margin: 2px 0;
+	padding: 10px 40px;
+}
+
+#button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+ol {
+	padding-left: 20px;
+}
+
+ol li {
+	padding: 5px;
+	color: #000;
+}
+ol li:nth-child(even) {
+	background: #dfdfdf;
+}
+.strike {
+	text-decoration: line-through;
+}
+li:hover {
+	cursor: pointer;
+}
+.delete {
+	display: none;
+}
+
+li > crossOutButton {
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
