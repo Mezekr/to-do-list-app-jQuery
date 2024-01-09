@@ -10,6 +10,18 @@
 <body>
     <header></header>
     <main>
+        <div class="container">
+            <h1>To Do List App</h1>
+            <p><em>Double click to mark an item off, click on "X" to delete an
+                    item, and drag items to reorder.</em></p>
+            <form name="toDoList">
+                <input type="text" id="toDoInput" name="listItem">
+            </form>
+            <div onclick="newItem()" id="button"></div>
+            <br>
+            <ol id="toDoItemslist"></ol>
+        </div>
+
     </main>
     <footer></footer>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
