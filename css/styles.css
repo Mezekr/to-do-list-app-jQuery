@@ -8,11 +8,12 @@ body {
 	background: #c6c7c7;
 }
 .container {
-	width: 75%;
+	width: 80%;
 	margin: 50px auto 20px;
 	padding: 23px 10px 10px 10px;
 	background-color: rgb(253, 253, 253);
 	border-radius: 8px;
+	text-align: center;
 }
 h1,
 p {
@@ -22,8 +23,8 @@ p {
 }
 form {
 	display: inline-block;
-	width: 70%;
-	margin: 2px;
+	width: 75%;
+	margin: 5px;
 	padding: 0px;
 }
 input {
@@ -36,13 +37,13 @@ input:focus {
 }
 #button {
 	display: inline-block;
-	width: 20%;
+	width: 15%;
 	background-color: rgb(10, 228, 101);
 	color: rgb(0, 0, 0);
 	border-radius: 5px;
 	text-align: center;
 	margin: 1px auto;
-	padding: 12px 10px;
+	padding: 12px 4px;
 }
 
 #button:hover {
@@ -52,14 +53,16 @@ input:focus {
 
 ol {
 	padding-left: 2px;
-	margin: 10px 15px;
+	margin: 15px auto;
 	width: 90%;
+	text-align: center;
 }
 
 ol li {
 	padding: 12px;
 	margin: 1px;
 	color: rgb(0, 0, 0);
+	text-align: left;
 }
 ol li:nth-child(even) {
 	background: #dfdfdf;
