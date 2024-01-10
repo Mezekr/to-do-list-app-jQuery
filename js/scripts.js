@@ -34,5 +34,5 @@ function newItem() {
 	function deleteListItem() {
 		toDoItem.addClass("delete");
 	}
-	toDoItem.click(() => deleteListItem());
+	crossOutButton.click(() => deleteListItem());
 }
