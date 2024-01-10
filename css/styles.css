@@ -5,13 +5,13 @@
 
 body {
 	font: normal normal 13px/16px "Roboto", sans-serif;
-	background: #e7dada;
+	background: #c6c7c7;
 }
 .container {
 	width: 75%;
 	margin: 50px auto 20px;
 	padding: 23px 10px 10px 10px;
-	background-color: rgb(233, 237, 240);
+	background-color: rgb(253, 253, 253);
 	border-radius: 8px;
 }
 h1,
@@ -22,7 +22,6 @@ p {
 }
 form {
 	display: inline-block;
-	/* width: 60%; */
 	width: 70%;
 	margin: 2px;
 	padding: 0px;
