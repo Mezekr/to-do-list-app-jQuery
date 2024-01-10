@@ -24,4 +24,15 @@ function newItem() {
 	toDoItem.dblclick(function () {
 		crossOut();
 	});
+
+	// Add the delete button "X"
+	let crossOutButton = $("<crossOutButton></crossOutButton>");
+	crossOutButton.append(document.createTextNode("X"));
+	toDoItem.append(crossOutButton);
+
+	//function to delete a todo item
+	function deleteListItem() {
+		toDoItem.addClass("delete");
+	}
+	toDoItem.click(() => deleteListItem());
 }
