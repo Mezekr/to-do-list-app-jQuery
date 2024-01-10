@@ -8,15 +8,24 @@ body {
 	background: #e7dada;
 }
 .container {
-	width: 40%;
-	margin: 40px auto 20px;
-	padding: 20px 10px 10px 20px;
+	width: 75%;
+	margin: 50px auto 20px;
+	padding: 23px 10px 10px 10px;
 	background-color: rgb(233, 237, 240);
-	border-radius: 10px;
+	border-radius: 8px;
+}
+h1,
+p {
+	text-align: center;
+	margin: 10px auto;
+	padding: 10px;
 }
 form {
 	display: inline-block;
-	width: 80%;
+	/* width: 60%; */
+	width: 70%;
+	margin: 2px;
+	padding: 0px;
 }
 input {
 	padding: 0;
@@ -28,12 +37,13 @@ input:focus {
 }
 #button {
 	display: inline-block;
+	width: 20%;
 	background-color: rgb(10, 228, 101);
 	color: rgb(0, 0, 0);
 	border-radius: 5px;
 	text-align: center;
-	margin: 2px 0;
-	padding: 10px 40px;
+	margin: 1px auto;
+	padding: 12px 10px;
 }
 
 #button:hover {
@@ -42,12 +52,15 @@ input:focus {
 }
 
 ol {
-	padding-left: 20px;
+	padding-left: 2px;
+	margin: 10px 15px;
+	width: 90%;
 }
 
 ol li {
-	padding: 5px;
-	color: #000;
+	padding: 12px;
+	margin: 1px;
+	color: rgb(0, 0, 0);
 }
 ol li:nth-child(even) {
 	background: #dfdfdf;
@@ -57,6 +70,7 @@ ol li:nth-child(even) {
 }
 li:hover {
 	cursor: pointer;
+	background-color: #c1e6f0;
 }
 .delete {
 	display: none;
