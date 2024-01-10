@@ -15,4 +15,13 @@ function newItem() {
 		// clear the Input text
 		toDoInput.val("");
 	}
+
+	//function to strike a todo item
+	function crossOut() {
+		toDoItem.toggleClass("strike");
+	}
+	// Add dblclick event handler function .
+	toDoItem.dblclick(function () {
+		crossOut();
+	});
 }
