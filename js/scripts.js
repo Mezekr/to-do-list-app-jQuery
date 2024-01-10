@@ -35,4 +35,7 @@ function newItem() {
 		toDoItem.addClass("delete");
 	}
 	crossOutButton.click(() => deleteListItem());
+
+	//Order ToDo items
+	$("#toDoItemslist").sortable();
 }
